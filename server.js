@@ -1,6 +1,6 @@
 const {notes} = require('./Develop/db/db.json')
-const apiRoutes = require('./routes/apiRoutes')
-const htmlRoutes = require('./routes/htmlRoutes')
+const apiRoutes = require('./routes/apiRoutes/notes')
+const htmlRoutes = require('./routes/htmlRoutes/index')
 
 const express =require('express');
 const PORT = process.env.PORT || 3001;
